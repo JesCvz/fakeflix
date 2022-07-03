@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+.routes {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.routes a {
+  color: inherit;
+  margin: inherit;
+  padding: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  color: red;
+  margin-right: 20px;
+  margin-left: 20px;
+}
